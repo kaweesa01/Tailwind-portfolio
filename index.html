@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MozeFolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./My-style.css">
+    <link rel="stylesheet" href="animator/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fugaz+One&family=Tajawal&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <script src="./Script/jquery-3.5.0.min.js"></script>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <div class="md:flex bg-blue-500 items-center flex-row justify-between shadow-2xl md:h-24">
+                <div class="title  ml-8">
+                    <div class="p-4 md:cursor-pointer flex items-center justify-between" class="title">
+                        <h2 class="text-2xl cursor-pointer tracking-wider text-white antialiased font-bold name">
+                            MozeFolio
+                        </h2>
+                        <div class="menu cursor-pointer md:hidden">
+                            <img src="./Graphics/svgs/menu.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="mb:mr-8 hidden md:block nav-container">
+                    <ul class=" md:flex font-semibold tracking-wider text-white flex-row">
+                        <li
+                            class=" px-5 py-2 mx-2 my-2  cursor-pointer border border-white hover:bg-white hover:text-blue-500 border-white rounded-full">
+                            <a class="page-nav" href="#page-1">HOME</a> </li>
+                        <li
+                            class=" px-5 py-2 mx-2 my-2 cursor-pointer border border-white hover:bg-white hover:text-blue-500 border-white rounded-full">
+                            <a class="page-nav" href="#page-2">ABOUT</a></li>
+                        <li
+                            class=" px-5 py-2 mx-2 my-2 cursor-pointer border border-white hover:bg-white hover:text-blue-500 border-white rounded-full">
+                            <a class="page-nav" href="#page-3"> SERVICES </a> </li>
+                        <li
+                            class=" px-5 py-2 mx-2 my-2 cursor-pointer border border-white hover:bg-white hover:text-blue-500 border-white rounded-full">
+                            <a class="page-nav" href="#page-4"> WORK </a> </li>
+                        <li
+                            class=" px-5 py-1 flex items-center mx-2  cursor-pointer border border-white bg-white  text-blue-500 hover:bg-blue-500 hover:text-white border-white rounded-full">
+                            <a class="page-nav" href="#page-5"> CONTACT </a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="page-1" class="flex items-center  justify-center">
+            <div
+                class="container flex mx-10 md:ml-20 md:mb-32 grid md:grid-cols-2 gap-4 items-center justify-center mobile-flex">
+                <div class="left-div text-white text-2xl md:text-3xl font-semibold smaller-mobile">
+                    <h1 class="break-all">Iam ready to serve you as you </h1>
+                    <h1 class="break-all"> wish with the best unique and </h1>
+                    <h1 class="break-all">responsive Web Site</h1>
+
+                    <div class="w-9 contact-div flex flex-col items-start justify-center">
+                        <button
+                            class=" shake-little bg-white border hover:border-blue-900 hover:text-blue-500  px-5 sm:py-2 self-start font-bold text-blue-500 text-2xl rounded-full my-4"><a
+                                class="page-nav" href="#page-5">Let's
+                                connect</a></button>
+                        <h3 class="flex text-sm font-bold"><img class=" md:pr-5" src="./Graphics/svgs/phone-alt.svg" alt="">
+                            +256 752 222 6438</h3>
+                    </div>
+                </div>
+                <div class="right">
+                    <img  class="image-logo w-11/12" src="Graphics/svgs/laptop-2282328.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="page-2"
+            class="page-2 flex items-center justify-center  w-full h-screen bg-center bg-no-repeat bg-cover"
+            style="background-image: url('./Graphics/images/waves.svg');">
+            <div class="container  flex flex-col sm:flex-row justify-center items-center">
+                <div class="left-div h-screen sm:mr-5  flex flex-col items-center justify-center  w-1/2">
+
+                    <div class="profile lg:flex w-full items-center pl-5 justify-start">
+                        <div data-aos="fade-down" class="profile-pic shadow-2xl mr-8 bg-red-700 "
+                            style="width:128px;height:128px;">
+                            <img class="h-full w-full" src="./Graphics/images/profile.PNG" alt="">
+                        </div>
+                        <div data-aos="fade-down-right" data-aos-duration="2000"
+                            class="contact flex flex-col items-start justify-center">
+                            <div class="flex items-center justify-center"> <strong
+                                    class="pr-1 text-xl text-gray-800">Name:</strong>
+                                <h3 class="text-lg text-blue-500 font-medium">Kaweesa Moses</h3>
+                            </div>
+                            <div class="flex items-center justify-center my-2"> <strong
+                                    class="pr-1 text-xl text-gray-800">Profile:</strong>
+                                <h3 class="text-lg text-blue-500 font-medium">Front end developer</h3>
+                            </div>
+                            <div class="flex items-center justify-center my-2"> <strong
+                                    class="pr-1 text-xl text-gray-800">Email:</strong>
+                                <h3 class="text-lg text-blue-500 font-medium">kawesa.moses02@gmail.com</h3>
+                            </div>
+                            <div class="flex items-center justify-center"> <strong
+                                    class="pr-1 text-xl text-gray-800">Phone:</strong>
+                                <h3 class="text-lg text-blue-500 font-medium">(256) 752 264 38</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-down" data-aos-duration="3000" class="skills w-full self-start  pr-5 pl-5">
+                        <h1 class=" text-2xl  font-bold text-blue-500 mt-5">Skills</h1>
+                        <div class="underline bg-blue-500 w-20  mb-4" style="height: 5px;">
+                        </div>
+                        <div class="percentage flex flex-col">
+                            <div class="percentage-label flex justify-between w-full">
+                                <h1 class=" text-xl font-bold text-gray-800">HTLM5</h1>
+                                <h1 class=" text-xl font-bold text-gray-800">95%</h1>
+                            </div>
+                            <div class="percentage-bar mb-4 w-full bg-gray-500" style="height: 10px;">
+                                <div class="bar h-full bg-white " style="width: 95%;">
+
+                                </div>
+                            </div>
+
+                            <div class="percentage-label flex justify-between w-full">
+                                <h1 class=" text-xl font-bold text-gray-800">CSS3</h1>
+                                <h1 class=" text-xl font-bold text-gray-800">90%</h1>
+                            </div>
+                            <div class="percentage-bar mb-4 w-full bg-gray-500" style="height: 10px;">
+                                <div class="bar h-full bg-white" style="width: 89%;">
+
+                                </div>
+                            </div>
+
+                            <div class="percentage-label flex justify-between w-full">
+                                <h1 class=" text-xl font-bold text-gray-800">JAVA SCRIPT</h1>
+                                <h1 class=" text-xl font-bold text-gray-800">60%</h1>
+                            </div>
+                            <div class="percentage-bar mb-4 w-full bg-gray-500" style="height: 10px;">
+                                <div class="bar h-full bg-white" style="width: 60%;">
+
+                                </div>
+                            </div>
+
+                            <div class="percentage-label flex justify-between w-full">
+                                <h1 class=" text-xl font-bold text-gray-800">UX</h1>
+                                <h1 class=" text-xl font-bold text-gray-800">80%</h1>
+                            </div>
+                            <div class="percentage-bar mb-4 w-full bg-gray-500" style="height: 10px;">
+                                <div class="bar h-full bg-white" style="width: 80%;">
+
+                                </div>
+                            </div>
+
+                            <div class="percentage-label flex justify-between w-full">
+                                <h1 class=" text-xl font-bold text-gray-800">TAILWIND</h1>
+                                <h1 class=" text-xl font-bold text-gray-800">87%</h1>
+                            </div>
+                            <div class="percentage-bar mb-4 w-full bg-gray-500" style="height: 10px;">
+                                <div class="bar h-full bg-white" style="width: 87%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="4000"
+                    class="right-div items-start justify-start w-1/2">
+                    <div class="about mt-5 mb-6">
+                        <h1 class="text-blue-500 font-bold text-3xl ">About me</h1>
+                        <div class="underline bg-blue-500 w-32" style="height: 5px;">
+                        </div>
+                    </div>
+                    <p class="text-gray-700 font-medium mb-5 text-lg">
+                        Hello, my name is Kaweesa Moses, I'm a catholic by religion and Nationality Ugandan. I have
+                        been
+                        a front end web developer for over FIVE MONTHS. I have worked on a couple of projects though
+                        not
+                        for clients but my own skill tests. I'm a guy who likes to work in a challenging environment
+                        and </p>
+                    <p class="text-gray-700 font-medium text-lg mb-5">
+                        willing to learn new Technologies. My major aim of being a web deisgner is to produce
+                        responsive
+                        websites with unique interfaces. I like making research about Trading Technologies and
+                        watching
+                        movies during my free time
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="page-3"
+            style="background-image: url('./Graphics/images/page-4.svg'); background-repeat: no-repeat; background-size: cover;"
+            class="page-3 h-screen flex items-center justify-center">
+            <div class="container flex flex-col items-center justify-center">
+                <div class="page-title flex flex-col items-center justify-center">
+                    <h1 class="text-white font-bold text-3xl" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">Services</h1>
+                    <div class="underline bg-white mb-5 w-32" style="height: 5px;">
+                    </div>
+                    <h4 class="text-gray-700 text-center font-medium text-xl" data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="2000">Services I offer to my clients</h4>
+                </div>
+
+                <div class="icons mt-20 flex flex-wrap items-center justify-center">
+                    <div data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000" class="icon shadow-2xl p-4 w-64 flex flex-col items-center justify-center">
+                        <div class="img-icon border rounded-full" style="width:150px; height:150px">
+                            <img class="img-icon rounded-full h-full w-full" src="./Graphics/images/man-1351317_640.png"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <h2 class="text-blue-800 font-semibold text-2xl">Personal sites</h2>
+                            <div class="underline bg-blue-800 mb-4 w-32" style="height: 5px;">
+                            </div>
+                            <h4 class="text-gray-700 text-center font-medium text-lg">I design unique and responsive
+                                Personal
+                                websites for my clients in 2 days </h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down" data-aos-delay="50"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="4000" class="icon shadow-2xl p-4 lg:mx-20 w-64 flex m-5 flex-col items-center justify-center">
+                        <div class="img-icon border rounded-full" style="width:150px; height:150px">
+                            <img class="img-icon rounded-full h-full w-full"
+                                src="./Graphics/images/school-295210_640.png" alt="">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <h2 class="text-blue-800 font-semibold text-2xl">School sites</h2>
+                            <div class="underline mb-4 bg-blue-800 w-32" style="height: 5px;">
+                            </div>
+                            <h4 class="text-gray-700 text-center font-medium text-lg">I design unique and responsive
+                                School
+                                websites for my clients in 1 week</h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-delay="100"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="5000" class="icon shadow-2xl p-4 w-64 flex flex-col items-center justify-center">
+                        <div class="img-icon border rounded-full" style="width:150px; height:150px">
+                            <img class="img-icon rounded-full h-full w-full"
+                                src="./Graphics/images/template-1599667_1280.png" alt="">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <h2 class="text-blue-800 font-semibold text-2xl">Company sites</h2>
+                            <div class="underline mb-4 bg-blue-800 w-32" style="height: 5px;">
+                            </div>
+                            <h4 class="text-gray-700 text-center font-medium text-lg">I design unique and responsive
+                                Company
+                                websites for my clients in 5 days </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="page-4"
+            style="background-image: url('./Graphics/images/page-4-copy.svg');background-position: center; background-repeat: no-repeat;background-size: cover;"
+            class="page-4  flex items-center justify-center h-screen">
+            <div class="container">
+                <div class="page-title flex flex-col items-center justify-center">
+                    <h1 class="text-blue-500 font-bold text-3xl" data-aos="fade-down" data-aos-delay="50"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="1000">Projects</h1>
+                    <div data-aos="fade-up" data-aos-delay="50"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="4000" class="underline bg-blue-500 mb-5 w-32" style="height: 5px;">
+                    </div>
+                    <h4 class="text-gray-700 font-medium text-center  text-xl mb-10" data-aos="flip-left" data-aos-delay="200"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">Some of my best projects</h4>
+                </div>
+
+                <div class="image-container grid grid-cols-3 gap-4 mb-20 items-center justify-center">
+                    <div data-aos="zoom-in-up" data-aos-delay="50"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="image overflow-hidden cursor-pointer relative bg-white h-64 w-full flex flex-col items-center justify-center">
+                        <div class="btn-drop flex flex-col items-center justify-center">
+                            <div class="preview mb-2">
+                                <a href="https://kaweesa01.github.io/Project-001-Build.com/"
+                                    class="bg-green-700 hover:bg-white hover:text-blue-500 pl-4 pr-4 pt-1 pb-1 rounded text-white text-lg font-semibold">Preview</a>
+                            </div>
+                            <div class="git mt-2">
+                                <a href="https://github.com/kaweesa01/Project-001-Build.com"
+                                    class="bg-gray-700 hover:text-white flex items-center pl-4 pr-4 pt-1 pb-1 rounded text-blue-500 text-lg font-semibold">
+                                    <img class="pr-2" src="Graphics/svgs/github-square.svg" alt=""> Repository</a>
+                            </div>
+                        </div>
+                        <div class="image-div  bg-gray-500 h-48 w-11/12">
+                            <img class="h-full w-full" src="./Graphics/images/home.PNG" alt="">
+                        </div>
+                        <div class="caption self-center justify-center ">
+                            <h4 class="text-gray-600 font-semibold text-xl">Architectural Site</h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-down" data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="image overflow-hidden cursor-pointer relative bg-white h-64 w-full flex flex-col items-center justify-center">
+                        <div class="btn-drop flex flex-col items-center justify-center">
+                            <div class="preview mb-2">
+                                <a href="https://kaweesa01.github.io/Typing-MASTER/"
+                                    class="bg-green-700 hover:bg-white hover:text-blue-500 pl-4 pr-4 pt-1 pb-1 rounded text-white text-lg font-semibold">Preview</a>
+                            </div>
+                            <div class="git mt-2">
+                                <a href="https://github.com/kaweesa01/Typing-MASTER"
+                                    class="bg-gray-700 hover:text-white flex items-center pl-4 pr-4 pt-1 pb-1 rounded text-blue-500 text-lg font-semibold">
+                                    <img class="pr-2" src="Graphics/svgs/github-square.svg" alt=""> Repository</a>
+                            </div>
+                        </div>
+                        <div class="image-div  bg-gray-500 h-48 w-11/12">
+                            <img class="h-full w-full" src="./Graphics/images/game.PNG" alt="">
+                        </div>
+                        <div class="caption self-center justify-center ">
+                            <h4 class="text-gray-600 font-semibold text-xl">Typing Warlock</h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-left" data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="image overflow-hidden cursor-pointer relative bg-white h-64 w-full flex flex-col items-center justify-center">
+                        <div class="btn-drop flex flex-col items-center justify-center">
+                            <div class="preview mb-2">
+                                <a href="https://kaweesa01.github.io/Project-002/"
+                                    class="bg-green-700 hover:bg-white hover:text-blue-500 pl-4 pr-4 pt-1 pb-1 rounded text-white text-lg font-semibold">Preview</a>
+                            </div>
+                            <div class="git mt-2">
+                                <a href="https://github.com/kaweesa01/Project-002"
+                                    class="bg-gray-700 hover:text-white flex items-center pl-4 pr-4 pt-1 pb-1 rounded text-blue-500 text-lg font-semibold">
+                                    <img class="pr-2" src="Graphics/svgs/github-square.svg" alt=""> Repository</a>
+                            </div>
+                        </div>
+                        <div class="image-div  bg-gray-500 h-48 w-11/12">
+                            <img class="h-full w-full" src="./Graphics/images/camera.PNG" alt="">
+                        </div>
+                        <div class="caption self-center justify-center ">
+                            <h4 class="text-gray-600 font-semibold text-xl">Client Test</h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-right" data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="image overflow-hidden cursor-pointer relative bg-white h-64 w-full flex flex-col items-center justify-center">
+                        <div class="btn-drop flex flex-col items-center justify-center">
+                            <div class="preview mb-2">
+                                <a href="https://kaweesa01.github.io/Best-Personal-site/"
+                                    class="bg-green-700 hover:bg-white hover:text-blue-500 pl-4 pr-4 pt-1 pb-1 rounded text-white text-lg font-semibold">Preview</a>
+                            </div>
+                            <div class="git mt-2">
+                                <a href="https://github.com/kaweesa01/Best-Personal-site"
+                                    class="bg-gray-700 hover:text-white flex items-center pl-4 pr-4 pt-1 pb-1 rounded text-blue-500 text-lg font-semibold">
+                                    <img class="pr-2" src="Graphics/svgs/github-square.svg" alt=""> Repository</a>
+                            </div>
+                        </div>
+                        <div class="image-div  bg-gray-500 h-48 w-11/12">
+                            <img class="h-full w-full" src="./Graphics/images/perfect-site.PNG" alt="">
+                        </div>
+                        <div class="caption self-center justify-center ">
+                            <h4 class="text-gray-600 font-semibold text-xl">Personal site</h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-out-down" data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="image overflow-hidden cursor-pointer relative bg-white h-64 w-full flex flex-col items-center justify-center">
+                        <div class="btn-drop flex flex-col items-center justify-center">
+                            <div class="preview mb-2">
+                                <a href=" https://unruffled-archimedes-d9ae58.netlify.app"
+                                    class="bg-green-700 hover:bg-white hover:text-blue-500 pl-4 pr-4 pt-1 pb-1 rounded text-white text-lg font-semibold">Preview</a>
+                            </div>
+                            <div class="git mt-2">
+                                <a href="https://github.com/kaweesa01/Dice-roll"
+                                    class="bg-gray-700 hover:text-white flex items-center pl-4 pr-4 pt-1 pb-1 rounded text-blue-500 text-lg font-semibold">
+                                    <img class="pr-2" src="Graphics/svgs/github-square.svg" alt=""> Repository</a>
+                            </div>
+                        </div>
+                        <div class="image-div  bg-gray-500 h-48 w-11/12">
+                            <img class="h-full w-full" src="./Graphics/images/game-2.PNG" alt="">
+                        </div>
+                        <div class="caption self-center justify-center ">
+                            <h4 class="text-gray-600 font-semibold text-xl">Dice Roll</h4>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-out-up" data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="3000"
+                        class="image overflow-hidden cursor-pointer relative bg-white h-64 w-full flex flex-col items-center justify-center">
+                        <div class="btn-drop flex flex-col items-center justify-center">
+                            <div class="preview mb-2">
+                                <a href="https://kaweesa01.github.io/Kaweesa_Mo/"
+                                    class="bg-green-700 hover:bg-white hover:text-blue-500 pl-4 pr-4 pt-1 pb-1 rounded text-white text-lg font-semibold">Preview</a>
+                            </div>
+                            <div class="git mt-2">
+                                <a href="https://github.com/kaweesa01/Kaweesa_Mo"
+                                    class="bg-gray-700 hover:text-white flex items-center pl-4 pr-4 pt-1 pb-1 rounded text-blue-500 text-lg font-semibold">
+                                    <img class="pr-2" src="Graphics/svgs/github-square.svg" alt=""> Repository</a>
+                            </div>
+                        </div>
+                        <div class="image-div  bg-gray-500 h-48 w-11/12">
+                            <img class="h-full w-full" src="./Graphics/images/first-site.PNG" alt="">
+                        </div>
+                        <div class="caption self-center justify-center ">
+                            <h4 class="text-gray-600 font-semibold text-xl">Personal-Site</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="page-5" class="page-5 flex flex-col items-center justify-center">
+            <div class="container">
+                <div class="map" data-aos="flip-up" data-aos-delay="1000"
+                data-aos-easing="ease-out-cubic" data-aos-duration="3000"></div>
+                <div class="contact-info grid grid-cols-3 mt-10 items-center justify-center">
+
+                    <div class="copy-right w-full flex flex-col items-center justify-center">
+                        <h1 class="cursor-pointer hover:text-blue-500 font-semibold text-2xl text-gray-700"> <a
+                                class="page-nav" href="#page-1">MozeFolio</a>
+                        </h1>
+                        <div class="underline mb-4 bg-blue-500 w-32" style="height: 5px;">
+                        </div>
+                        <h6 class="font-medium text-xl text-blue-500">CopyRight © 2020</h6>
+                    </div>
+
+                    <div class="contacts w-full  flex flex-col items-center justify-center">
+                        <h3 class="font-semibold text-2xl text-gray-700">Contacts</h3>
+                        <div class="underline mb-4 bg-blue-500 w-32" style="height: 5px;">
+                        </div>
+                        <div class="contact-container flex items-center justify-center">
+                            <div class="Personal flex flex-col items-center justify-center">
+                                <h6 class="font-medium text-xl text-blue-500">(256)-752226438</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="follow w-full flex flex-col items-center justify-center">
+                        <h3 class="font-semibold text-2xl text-gray-700">Follow us</h3>
+                        <div class="underline mb-4 bg-blue-500 w-32" style="height: 5px;">
+                        </div>
+                        <div class="iconz flex">
+
+                            <div class="icon cursor-pointer pr-2">
+                                <img src="./Graphics/svgs/facebook-square.svg" alt="">
+                            </div>
+
+                            <div class="icon cursor-pointer pr-2 pl-2">
+                                <img src="./Graphics/svgs/github-square - Copy.svg" alt="">
+                            </div>
+
+                            <div class="icon cursor-pointer pr-2 pl-2">
+                                <img src="./Graphics/svgs/instagram.svg" alt="">
+                            </div>
+
+                            <div class="icon cursor-pointer pr-2 pl-2">
+                                <img src="./Graphics/svgs/twitter-square.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".menu").click(function () {
+            $(".nav-container").slideToggle("slow");
+        });
+
+        $(".page-nav").click(function () {
+            $(".nav-container").remove("slow");
+        });
+    });
+</script>
+<script src="animator/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 1000,
+    });
+</script>
+
+<script src="./Script/script.js"></script>
+
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" width="450px" height="450px" viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 947.64)">
+  <g transform="matrix(3.4699 0 0 3.4699 109.08 -2713.6)" fill-rule="evenodd">
+   <circle transform="rotate(-90)" cx="-796.79" cy="254.58" r="247.5" fill="#fff" stroke="white" stroke-linecap="round" stroke-width="5"/>
+   <g transform="translate(4.5012 .98798)">
+    <rect x="96.117" y="655.91" width="319.78" height="240.42" ry="9.1597" fill="#006680" stroke="#045" stroke-linecap="round" stroke-width="1.2"/>
+    <path d="m75.049 887.38h361.74s8.1997 20.341-29.588 20.341h-152.54l-149.22-0.61545c-37.605-0.15511-30.393-19.725-30.393-19.725z" fill="#006680" stroke="#045" stroke-linecap="round" stroke-width="1.2"/>
+    <rect x="121.06" y="672.93" width="269.8" height="200.57" fill="#5df" stroke="#045" stroke-linecap="round" stroke-width="1.2"/>
+    <rect x="120.8" y="672.93" width="270.07" height="39.187" fill="#0a8" stroke="#045" stroke-linecap="round" stroke-width="1.2"/>
+    <rect x="250.24" y="685.69" width="12.733" height="15.065" fill="#5df"/>
+    <rect x="279.83" y="690.18" width="6.3665" height="6.5037" fill="#5df"/>
+    <rect x="292.56" y="690.18" width="6.3665" height="6.5037" fill="#5df"/>
+    <rect x="305.29" y="690.18" width="6.3665" height="6.5037" fill="#5df"/>
+    <rect x="318.03" y="690.18" width="6.3665" height="6.5037" fill="#5df"/>
+    <rect x="330.76" y="690.18" width="6.3665" height="6.5037" fill="#5df"/>
+    <rect x="152.5" y="690.18" width="76.398" height="6.5037" ry="3.2519" fill="#5df"/>
+    <rect x="299.33" y="726.27" width="74.603" height="88.268" ry="8.244" fill="#045"/>
+    <rect x="296.41" y="822.77" width="76.398" height="6.5037" ry="3.2519" fill="#045"/>
+    <rect x="296.41" y="833.76" width="76.398" height="6.5037" ry="3.2519" fill="#045"/>
+    <rect x="296.41" y="844.75" width="76.398" height="6.5037" ry="3.2519" fill="#045"/>
+    <rect x="296.41" y="855.74" width="76.398" height="6.5037" ry="3.2519" fill="#045"/>
+    <rect x="170.74" y="730.71" width="57.298" height="6.5037" ry="3.2519" fill="#006680"/>
+    <rect x="136.94" y="746.71" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="760.43" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="774.15" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="787.87" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="801.58" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="815.3" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="829.02" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="842.73" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="136.94" y="842.73" width="114.6" height="6.5037" ry="3.2519" fill="#0a8"/>
+    <rect x="213.52" y="853.68" width="31.832" height="6.5037" ry="3.2519" fill="#006680"/>
+    <path d="m230 886.92h60s2.3122 8.8-5 8.8h-50.486c-7.277 0-4.5146-8.8-4.5146-8.8z" fill="#5df" stroke="#045" stroke-linecap="round" stroke-width="1.2"/>
+   </g>
+  </g>
+ </g>
+</svg>
